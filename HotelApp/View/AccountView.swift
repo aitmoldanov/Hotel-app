@@ -1,11 +1,3 @@
-//
-//  AccountView.swift
-//  HotelApp
-//
-//  Created by Omar Thamri on 12/07/2019.
-//  Copyright © 2019 MACBOOK PRO RETINA. All rights reserved.
-//
-
 import UIKit
 
 class AccountView: UIView, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
@@ -44,7 +36,7 @@ class AccountView: UIView, UIImagePickerControllerDelegate, UINavigationControll
     let fullNameTf: UITextField = {
         let cnl = UITextField()
         cnl.textColor = UIColor.darkGray
-        cnl.text = "Omar Thamri"
+        cnl.text = "Abzal Aitmoldanov"
         cnl.borderStyle = .none
         cnl.font = UIFont.boldSystemFont(ofSize: 15)
         cnl.translatesAutoresizingMaskIntoConstraints = false
@@ -70,7 +62,7 @@ class AccountView: UIView, UIImagePickerControllerDelegate, UINavigationControll
     let mailTf: UITextField = {
         let cnl = UITextField()
         cnl.textColor = UIColor.darkGray
-        cnl.text = "omarthamri@develop.com"
+        cnl.text = "abzalaitmolda@develop.com"
         cnl.borderStyle = .none
         cnl.font = UIFont.boldSystemFont(ofSize: 15)
         cnl.translatesAutoresizingMaskIntoConstraints = false
@@ -122,7 +114,7 @@ class AccountView: UIView, UIImagePickerControllerDelegate, UINavigationControll
     let cityTf: UITextField = {
         let cnl = UITextField()
         cnl.textColor = UIColor.darkGray
-        cnl.text = "Tunis, Tunisia"
+        cnl.text = "Almaty, Kazakhstan"
         cnl.borderStyle = .none
         cnl.font = UIFont.boldSystemFont(ofSize: 15)
         cnl.translatesAutoresizingMaskIntoConstraints = false
